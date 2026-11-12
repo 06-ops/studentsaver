@@ -1,7 +1,12 @@
 node_modules/
-.env
-.aws/
+dist/
 build/
+.env
+.env.*
+.aws/
 __pycache__/
 *.pyc
 .DS_Store
+*.log
+*.pdf
+*.csv

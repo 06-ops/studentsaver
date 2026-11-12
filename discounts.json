@@ -1,0 +1,28 @@
+{
+  "Discounts": [
+    {"PutRequest": {"Item": {
+      "discountId": {"S": "1"},
+      "store": {"S": "Spotify"},
+      "category": {"S": "Entertainment"},
+      "discountDetails": {"S": "Student plan for Premium"},
+      "link": {"S": "https://www.spotify.com/student/"},
+      "verificationMethod": {"S": "Student verification"}
+    }}},
+    {"PutRequest": {"Item": {
+      "discountId": {"S": "2"},
+      "store": {"S": "GitHub Student Developer Pack"},
+      "category": {"S": "Software"},
+      "discountDetails": {"S": "Free developer tools for students"},
+      "link": {"S": "https://education.github.com/pack"},
+      "verificationMethod": {"S": "College email or ID"}
+    }}},
+    {"PutRequest": {"Item": {
+      "discountId": {"S": "3"},
+      "store": {"S": "Amazon Prime Student"},
+      "category": {"S": "Shopping"},
+      "discountDetails": {"S": "Student membership offer"},
+      "link": {"S": "https://www.amazon.in/"},
+      "verificationMethod": {"S": "Student verification"}
+    }}}
+  ]
+}

@@ -1,8 +1,7 @@
 # StudentSaver
 
 A serverless web app on AWS that helps college students see where their money goes. Upload a bank or UPI statement and StudentSaver sorts the payments into categories, finds recurring subscriptions, shows what you spent and received, and helps you stay inside a monthly budget and a daily limit.
-
-**Live site:** `https://dmmiocjetjayq.cloudfront.net` 
+ 
 **Region:** Asia Pacific (Mumbai), `ap-south-1`
 
 ![Dashboard](docs/dashboard.png)
